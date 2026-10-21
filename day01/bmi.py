@@ -20,15 +20,15 @@
 try:
     height= float(input('输入身高（米）'))
     weight= float(input('输入体重（公斤）'))
-    BMI = (weight/(height**2))
-
-    if BMI < 18.5 :
-        print(f"你的BMI指数是{BMI:.2f},偏瘦")
-    elif BMI >= 18.5 and BMI <= 24 :
-        print(f"你的BMI指数是{BMI:.2f},正常")
+    if height == 0 :
+        print("身高不能为0！")
     else :
-        print(f"你的BMI指数是{BMI:.2f},偏胖")
-            
+        BMI = (weight/(height**2))
+        if BMI < 18.5 :
+            print(f"你的BMI指数是{BMI:.2f},偏瘦")
+        elif BMI >= 18.5 and BMI <= 24 :
+            print(f"你的BMI指数是{BMI:.2f},正常")
+        else :
+            print(f"你的BMI指数是{BMI:.2f},偏胖")           
 except ValueError:
     print("请输入数字！")
-

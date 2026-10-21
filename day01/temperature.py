@@ -6,4 +6,4 @@ try :
     hsTem = ssTem * 9 / 5 + 32
     print(f"华氏度为{hsTem:.1f}")
 except ValueError :
-    print("请输入数字！")   
+    print("请输入数字！")
