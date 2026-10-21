@@ -9,13 +9,12 @@ try :
     hc = int(input('输入人数'))
     if hc == 0 :
         print('人数不能为0！')
-        exit()
-    
-    xf = payAcc * feeRate/100
-    all = payAcc + xf 
-    perp = all / hc
-    print(f"小费金额为{xf:.2f}")
-    print(f"总计{all:.2f}")
-    print(f"每人应付{perp:.2f}")
+    else :        
+        xf = payAcc * feeRate/100
+        all = payAcc + xf 
+        perp = all / hc
+        print(f"小费金额为{xf:.2f}")
+        print(f"总计{all:.2f}")
+        print(f"每人应付{perp:.2f}")
 except ValueError:
     print('请输入正确数字')

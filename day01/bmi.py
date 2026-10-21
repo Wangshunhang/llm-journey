@@ -26,7 +26,7 @@ try:
         BMI = (weight/(height**2))
         if BMI < 18.5 :
             print(f"你的BMI指数是{BMI:.2f},偏瘦")
-        elif BMI >= 18.5 and BMI <= 24 :
+        elif BMI <= 24 :
             print(f"你的BMI指数是{BMI:.2f},正常")
         else :
             print(f"你的BMI指数是{BMI:.2f},偏胖")           
