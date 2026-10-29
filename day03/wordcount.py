@@ -50,4 +50,4 @@ top = sorted(dict_a.items(), key=lambda kv: kv[1], reverse=True)[:10]
 lenth_dict = len(dict_a)
 for rank, (word, cnt) in enumerate(top, start=1):
     print(f'{rank}. {word} — {cnt} 次')
-print(f'不同的单词数为{lenth_dict}')
+print(dict_a,f'不同的单词数为{lenth_dict}')
