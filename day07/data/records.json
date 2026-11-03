@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2,
+    "date": "2026-11-03",
+    "type": "2",
+    "category": "工资",
+    "amount": 10000.0,
+    "note": ""
+  },
+  {
+    "id": 4,
+    "date": "2026-11-03",
+    "type": "2",
+    "category": "代练",
+    "amount": 200.0,
+    "note": ""
+  },
+  {
+    "id": 5,
+    "date": "2026-11-03",
+    "type": "1",
+    "category": "餐饮",
+    "amount": 88.0,
+    "note": ""
+  },
+  {
+    "id": 6,
+    "date": "2026-11-03",
+    "type": "2",
+    "category": "带娃",
+    "amount": 111.0,
+    "note": ""
+  },
+  {
+    "id": 7,
+    "date": "2026-11-03",
+    "type": "1",
+    "category": "奶粉",
+    "amount": 300.0,
+    "note": ""
+  }
+]

@@ -31,7 +31,7 @@
 # 一班：3 人，平均总分 245.3
 # 二班：3 人，平均总分 238.7
 
-#1
+#1 D3
 # students = [
 #     {"name": "张三", "class": "一班", "chinese": 88, "math": 95, "english": 76},
 #     {"name": "李四", "class": "一班", "chinese": 92, "math": 78, "english": 85},
