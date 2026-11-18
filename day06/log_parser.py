@@ -82,7 +82,7 @@ logs = """2026-10-31 14:23:01 ERROR [billing-service] ip=10.12.3.45 code=500 cos
 
 
 
-def parse_line(line):
+def parse_line( ):
     pattern = (
     r'(?P<time>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})'
     r'(\s+(?P<level>[a-zA-Z]+)\s+)'
